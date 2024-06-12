@@ -51,7 +51,7 @@
 
 ## 项目说明
 1.Arduino文件在使用时需要将ElChge中的 DFRobot_ASCllfont/DFRobot_SSD1306/DFRobot_URM10 文件放入下面路径：你的Arduino软件路径/libraries
-**如果 QGPMakerMotorShield_V5.2 也放入，需要修改对应调用的工程文件的引用）**
-2.嘉立创文件和最后的连线图略有区别，正在更新
+**如果 QGPMakerMotorShield_V5.2 也放入，需要修改对应调用的工程文件的引用）**  
+2.嘉立创文件和最后的连线图略有区别，正在更新  
 3.本来打算做openmv的图传人脸识别，但是由于资金紧张，能力有限，目前只能做到通过JSON格式，ESP8266和openmv串口连接，通过Socket发送，速度太慢，`一张图要3-4秒`考试将至希望下次能完成
 
