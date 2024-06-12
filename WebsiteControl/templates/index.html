@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>电路分析第一小组</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="content">
+        <h1>电路分析第一小组</h1>
+        <div class="image-container">
+            <img src="{{ url_for('video_feed') }}" alt="实时视频" id="video">
+        </div>
+        <div class="control-section">
+            <div class="motor-control">
+                <p>电机控制</p>
+                <button class="control-button" id="up" data-key="ArrowUp">forward</button>
+                <button class="control-button" id="down" data-key="ArrowDown">backward</button>
+                <button class="control-button" id="left" data-key="ArrowLeft">left</button>
+                <button class="control-button" id="right" data-key="ArrowRight">right</button>
+            </div>
+            <div class="servo-control">
+                <p>舵机控制</p>
+                <button class="control-button" id="w" data-key="w">向上</button>
+                <button class="control-button" id="s" data-key="s">向下</button>
+                <button class="control-button" id="a" data-key="a">向左</button>
+                <button class="control-button" id="d" data-key="d">向右</button>
+            </div>
+        </div>
+        <div id="status"></div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

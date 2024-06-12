@@ -1,0 +1,12 @@
+{
+    "uno": true,
+    "nano": true,
+    "mpython": true,
+    "telloesp32": true,
+    "microbit": true,
+    "leonardo": true,
+    "mega2560": true,
+    "beetleProMini": false,
+    "fireBeetleEsp32":true,
+    "include": "DFRobot_ASCIIfont.h"
+}
